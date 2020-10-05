@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect, useCallback } from "react"
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos"
 
 import "./style.scss"
@@ -7,6 +7,7 @@ const App = () => {
   const [level, setLevel] = useState(0)
   const [bonus, setBonus] = useState(0)
   const [modificators, setModificators] = useState(0)
+  const [total, setTotal] = useState(0)
 
   const levelUp = () => {
     setLevel((prevState) => prevState + 1)
@@ -32,8 +33,19 @@ const App = () => {
     setModificators((prevState) => prevState - 1)
   }
 
+  const countTotal = useCallback(() => {
+    setTotal(bonus + level + modificators)
+  }, [bonus, level, modificators])
+
+  useEffect(() => {
+    countTotal()
+  }, [level, bonus, modificators, countTotal])
+
   return (
     <div className="app">
+      <div className="app__items">
+        <div className="app__description">Total:{total} </div>
+      </div>
       <div className="app__level">
         <ArrowBackIosIcon className="arrow-up" onClick={levelUp} />
         <div className="app__current">{level}</div>
