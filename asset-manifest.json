@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/muncking-level-counter/static/css/main.4f620737.chunk.css",
-    "main.js": "/muncking-level-counter/static/js/main.a0745556.chunk.js",
-    "main.js.map": "/muncking-level-counter/static/js/main.a0745556.chunk.js.map",
-    "runtime-main.js": "/muncking-level-counter/static/js/runtime-main.3ca8a6f2.js",
-    "runtime-main.js.map": "/muncking-level-counter/static/js/runtime-main.3ca8a6f2.js.map",
-    "static/js/2.2d0ef173.chunk.js": "/muncking-level-counter/static/js/2.2d0ef173.chunk.js",
-    "static/js/2.2d0ef173.chunk.js.map": "/muncking-level-counter/static/js/2.2d0ef173.chunk.js.map",
-    "index.html": "/muncking-level-counter/index.html",
-    "precache-manifest.ab7d94de78d659f0831997770e7033ea.js": "/muncking-level-counter/precache-manifest.ab7d94de78d659f0831997770e7033ea.js",
-    "service-worker.js": "/muncking-level-counter/service-worker.js",
-    "static/css/main.4f620737.chunk.css.map": "/muncking-level-counter/static/css/main.4f620737.chunk.css.map",
-    "static/js/2.2d0ef173.chunk.js.LICENSE.txt": "/muncking-level-counter/static/js/2.2d0ef173.chunk.js.LICENSE.txt"
+    "main.css": "/munchkin-level-counter/static/css/main.4f620737.chunk.css",
+    "main.js": "/munchkin-level-counter/static/js/main.a0745556.chunk.js",
+    "main.js.map": "/munchkin-level-counter/static/js/main.a0745556.chunk.js.map",
+    "runtime-main.js": "/munchkin-level-counter/static/js/runtime-main.4dbeab52.js",
+    "runtime-main.js.map": "/munchkin-level-counter/static/js/runtime-main.4dbeab52.js.map",
+    "static/js/2.2d0ef173.chunk.js": "/munchkin-level-counter/static/js/2.2d0ef173.chunk.js",
+    "static/js/2.2d0ef173.chunk.js.map": "/munchkin-level-counter/static/js/2.2d0ef173.chunk.js.map",
+    "index.html": "/munchkin-level-counter/index.html",
+    "precache-manifest.d6689560e586d248506a24d7203fd8e4.js": "/munchkin-level-counter/precache-manifest.d6689560e586d248506a24d7203fd8e4.js",
+    "service-worker.js": "/munchkin-level-counter/service-worker.js",
+    "static/css/main.4f620737.chunk.css.map": "/munchkin-level-counter/static/css/main.4f620737.chunk.css.map",
+    "static/js/2.2d0ef173.chunk.js.LICENSE.txt": "/munchkin-level-counter/static/js/2.2d0ef173.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ca8a6f2.js",
+    "static/js/runtime-main.4dbeab52.js",
     "static/js/2.2d0ef173.chunk.js",
     "static/css/main.4f620737.chunk.css",
     "static/js/main.a0745556.chunk.js"
